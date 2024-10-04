@@ -31,3 +31,7 @@ chmod 644 /root/WPC/nginx.conf
 ```javascript
 docker-compose up
 ```
+
+
+
+IF PW WRONG IN PHPMINEADMIN UPDATE https://www.md5.cz/
