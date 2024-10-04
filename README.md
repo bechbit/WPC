@@ -11,9 +11,10 @@ git clone https://github.com/bechbit/WPC.git
 ```
 
 ```javascript
-cd wordpress-docker-compose/
+cd WPC/
 ```
-
+UPDATE ENV:
+PW + IP
 ```javascript
 cp env.example .env
 ```
@@ -21,8 +22,11 @@ cp env.example .env
 ```javascript
 sudo apt install docker-compose
 ```
+
+UPDATE NGINX:
+server_name IP_HERE
 ```javascript
-chmod 644 /root/wordpress-docker-compose/nginx.conf
+chmod 644 /root/WPC/nginx.conf
 ```
 ```javascript
 docker-compose up
